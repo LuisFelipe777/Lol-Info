@@ -1,0 +1,32 @@
+:root {
+    --color-blue: #291AFA;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+.footer {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.footer .descricao {
+    width: 80%;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+    font-size: 2vh;
+}
+
+.logos {
+    width: 20%;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.logos a img {
+    max-width: 3rem;
+}

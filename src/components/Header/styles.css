@@ -1,0 +1,24 @@
+:root {
+    --color-blue: #2109AE;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+body {
+    font-size: 64.5%;
+}
+
+.header-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(var(--color-blue), var(--color-white));
+    height: 6rem;
+}
+
+.img-logo {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color-black);
+    border-radius: 2rem;
+}

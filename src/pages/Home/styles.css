@@ -1,0 +1,49 @@
+body {
+    font-size: 64.5%;
+}
+
+:root {
+    --color-blue: #2109AE;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+.home-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-contain {
+    width: 80%;
+    min-height: 30rem;
+    display: block;
+    background-color: rgba(0, 0, 0, .4);
+    margin: 5rem 0 5rem 0;
+}
+
+.search {
+    display: flex;
+    width: 14rem;
+    height: 2.4rem;
+    border: 0.1rem solid var(--color-white);
+    align-items: center;
+}
+
+.search input {
+    width: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    font-size: 1rem;
+    color: var(--color-white);
+}
+
+.btn-search {
+    width: 20%;
+    height: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
